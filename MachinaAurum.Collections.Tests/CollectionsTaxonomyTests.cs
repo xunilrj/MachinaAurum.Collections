@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace MachinaAurum.Collections.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class CollectionsTaxonomyTests
     {
         [TestMethod]
         public void SequenceableCollections()

@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace MachinaAurum.Collections.Memory.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class ArrayCollectionTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ArrayCollectionMustBeAbleToInsertAndRemoveItems()
         {
             var factory = new MemoryCollectionsFactory();
             var collection = factory.Create<int>(CollectionCapabilities.Mutable | CollectionCapabilities.NonExpandable);

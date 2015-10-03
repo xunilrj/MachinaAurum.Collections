@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <None Include="ClassDiagram1.cd" />
+    <None Include="Taxonomy.cd" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections.cs" />
