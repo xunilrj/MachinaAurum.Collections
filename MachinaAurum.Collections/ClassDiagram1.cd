@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MachinaAurum.Collections.IndexeableExtensions" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MachinaAurum.Collections.IndexeableResult&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="MachinaAurum.Collections.ICollection" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IImmutableCollection" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IExpandableCollection" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ICollectionReader&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ICollectionWriter&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISequenceableCollection" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IAllowDuplicates" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IDoesNotAllowDuplicates" Collapsed="true">
+    <Position X="31.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISequenceableReader&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISequenceableWriter&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IExpandableSequencedCollection&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IFiniteSequenceableReader&lt;T&gt;" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IFiniteSequenceableWriter&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIndexeable" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIndexeableReader&lt;TIndex, T&gt;" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIndexeableWriter&lt;TIndex, T&gt;" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIndexeableResult&lt;T&gt;" Collapsed="true">
+    <Position X="34.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IExtensibleSequencedExplicitly&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IExtensibleUnsequenced&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISequenceImmutable&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IExtensibleSequencedImplicitly&lt;T&gt;" Collapsed="true">
+    <Position X="8.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISequencedExplicitly&lt;T&gt;" Collapsed="true">
+    <Position X="9" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IHeap" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISortedCollection&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IArray&lt;T&gt;" Collapsed="true">
+    <Position X="10.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IInterval&lt;T&gt;" Collapsed="true">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ILinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IOrderedCollection&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IWeakArray" Collapsed="true">
+    <Position X="10.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IBag&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IDictionary&lt;Tkey, TValue&gt;" Collapsed="true">
+    <Position X="15.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISet&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.ISkipList&lt;T&gt;" Collapsed="true">
+    <Position X="23.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIdentityBag&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IWeakSet&lt;T&gt;" Collapsed="true">
+    <Position X="17.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIdentitySet&lt;T&gt;" Collapsed="true">
+    <Position X="19.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IPluggableSet&lt;T&gt;" Collapsed="true">
+    <Position X="22" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IPluggableDictionary&lt;Tkey, TValue&gt;" Collapsed="true">
+    <Position X="20.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIdentityDictionary&lt;Tkey, TValue&gt;" Collapsed="true">
+    <Position X="26.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IWeakKeyDictionary&lt;Tkey, TValue&gt;" Collapsed="true">
+    <Position X="29" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IWeakValueDictionary&lt;Tkey, TValue&gt;" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IIdentitySkipList&lt;T&gt;" Collapsed="true">
+    <Position X="23.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MachinaAurum.Collections.IWeakIdentityKeyDictionary&lt;Tkey, TValue&gt;" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
