@@ -10,7 +10,7 @@ namespace MachinaAurum.Collections.Memory.Tests
         public void ArrayCollectionMustBeAbleToInsertAndRemoveItems()
         {
             var factory = new MemoryCollectionsFactory();
-            var collection = factory.Create<int>(CollectionCapabilities.Mutable | CollectionCapabilities.NonExpandable);
+            var collection = factory.Create<int>(x => x.AddMutability());
 
             AssertCanInsertAndRemove(collection);
         }

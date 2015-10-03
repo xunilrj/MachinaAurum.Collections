@@ -14,16 +14,11 @@ namespace MachinaAurum.Collections.Memory
             RegisterCatalog();
         }
 
-        public ICollection<T> Create<T>(CollectionCapabilities capabilities)
+        public ICollection<T> Create<T>(CollectionOptions options)
         {
-            if(capabilities.HasFlag(CollectionCapabilities.Mutable))
-            {
-                return new MemoryArray<T>();
-            }
-
-            throw new NotImplementedException();
+            return new MemoryArray<T>();
         }
-             
+
         private void RegisterCatalog()
         {
         }
