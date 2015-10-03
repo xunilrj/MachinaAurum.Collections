@@ -7,6 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaAurum.Collections", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaAurum.Collections.Tests", "..\MachinaAurum.Collections.Tests\MachinaAurum.Collections.Tests.csproj", "{B353C9FF-985B-4199-92A9-51AA89D61C65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaAurum.Collections.Memory", "MachinaAurum.Collections.Memory\MachinaAurum.Collections.Memory.csproj", "{8D11F8B8-1AE8-4046-A13C-31935147C49F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{64081E74-9D3A-4DB8-AEA1-B604976FD87C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memory", "Memory", "{32EEB3E3-00DF-4F18-B77B-48065BC0F0DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADONET", "ADONET", "{CC4D09E1-351A-4B16-93DB-3856DF7D3204}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REDIS", "REDIS", "{72A93ABF-B650-4A3B-B6C4-C9C02B677208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaAurum.Collections.Memory.Tests", "MachinaAurum.Collections.Memory.Tests\MachinaAurum.Collections.Memory.Tests.csproj", "{7F408D0C-0736-4151-8ACF-B7844C9ED5B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +33,22 @@ Global
 		{B353C9FF-985B-4199-92A9-51AA89D61C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B353C9FF-985B-4199-92A9-51AA89D61C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B353C9FF-985B-4199-92A9-51AA89D61C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D11F8B8-1AE8-4046-A13C-31935147C49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D11F8B8-1AE8-4046-A13C-31935147C49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D11F8B8-1AE8-4046-A13C-31935147C49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D11F8B8-1AE8-4046-A13C-31935147C49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F408D0C-0736-4151-8ACF-B7844C9ED5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F408D0C-0736-4151-8ACF-B7844C9ED5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F408D0C-0736-4151-8ACF-B7844C9ED5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F408D0C-0736-4151-8ACF-B7844C9ED5B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E358ECDD-7CE0-476C-B2CF-94B9CA00615E} = {64081E74-9D3A-4DB8-AEA1-B604976FD87C}
+		{B353C9FF-985B-4199-92A9-51AA89D61C65} = {64081E74-9D3A-4DB8-AEA1-B604976FD87C}
+		{8D11F8B8-1AE8-4046-A13C-31935147C49F} = {32EEB3E3-00DF-4F18-B77B-48065BC0F0DB}
+		{7F408D0C-0736-4151-8ACF-B7844C9ED5B9} = {32EEB3E3-00DF-4F18-B77B-48065BC0F0DB}
 	EndGlobalSection
 EndGlobal

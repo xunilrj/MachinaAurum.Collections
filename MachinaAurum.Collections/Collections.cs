@@ -8,6 +8,36 @@ namespace MachinaAurum.Collections
     {
     }
 
+    public interface ICollection<T> : ICollection
+    {
+
+    }
+
+    public static class CollectionTExtensions
+    {
+        public static void TryInsert<T>(this ICollection<T> collection, T item)
+        {
+            if(collection is ICollectionWriter<T>)
+            {
+                var writer = (collection as ICollectionWriter<T>);
+                writer.BestInsertion(item);
+            }
+        }
+
+        public static T TryRemove<T>(this ICollection<T> collection)
+        {
+            if (collection is ICollectionReader<T>)
+            {
+                var writer = (collection as ICollectionReader<T>);
+                var result = writer.BestRemove();
+
+                return result;
+            }
+
+            throw new NotImplementedException();
+        }
+    }
+
     public interface IImmutableCollection : ICollection
     {
 
@@ -20,11 +50,12 @@ namespace MachinaAurum.Collections
 
     public interface ICollectionReader<out T> : ICollection
     {
+        T BestRemove();
     }
 
     public interface ICollectionWriter<in T> : ICollection
     {
-
+        void BestInsertion(T item);        
     }
 
     public interface ISequenceableCollection : ICollection, IEnumerable
@@ -199,7 +230,7 @@ namespace MachinaAurum.Collections
 
     }
 
-    public interface ISequencedExplicitly<T> : ICollection, ISequenceableReader<T>
+    public interface ISequencedExplicitly<T> : ICollection<T>, ISequenceableReader<T>
     {
     }
 
@@ -213,7 +244,7 @@ namespace MachinaAurum.Collections
 
     }
 
-    public interface IArray<T> : ISequencedExplicitly<T>, IIndexeable
+    public interface IArray<T> : ISequencedExplicitly<T>, IIndexeable, ICollectionReader<T>, ICollectionWriter<T>
     {
 
     }
