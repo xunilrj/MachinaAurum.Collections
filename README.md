@@ -12,3 +12,6 @@ http://www.researchgate.net/publication/2564879_Applying_Traits_to_the_Smalltalk
 
 MODERN C++ DESIGN
 http://erdani.com/index.php/books/modern-c-design/
+
+COLLECTION HIERARCHIES
+http://www.c2.com/cgi/wiki?CollectionHierarchies
